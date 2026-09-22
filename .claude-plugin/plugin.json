@@ -1,0 +1,22 @@
+{
+  "name": "yanlin-skills",
+  "version": "1.0.0",
+  "description": "Yanlin's AI workflow toolkit: session relay command (relayhand) and Markdown project management skill (md-project-manager). Chinese-first, bilingual docs.",
+  "author": {
+    "name": "yanlin-cheng"
+  },
+  "homepage": "https://github.com/yanlin-cheng/skills",
+  "repository": "https://github.com/yanlin-cheng/skills",
+  "license": "MIT",
+  "keywords": [
+    "session-handoff",
+    "relay",
+    "project-management",
+    "markdown",
+    "skills",
+    "workflow"
+  ],
+  "skills": [
+    "./skills/productivity/md-project-manager"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "yanlin-skills",
+  "owner": {
+    "name": "yanlin-cheng"
+  },
+  "description": "Yanlin's installable Claude Code plugins: session relay, project management, and future workflow tools.",
+  "plugins": [
+    {
+      "name": "yanlin-skills",
+      "source": "./",
+      "description": "Session relay command (relayhand) + Markdown project management skill (md-project-manager). Chinese-first, bilingual docs.",
+      "category": "productivity",
+      "version": "1.0.0",
+      "keywords": [
+        "relay",
+        "handoff",
+        "project-management",
+        "markdown"
+      ]
+    }
+  ]
+}
