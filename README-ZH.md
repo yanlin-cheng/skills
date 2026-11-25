@@ -27,7 +27,7 @@ Yanlin 的 Claude Code 工作流合辑——一次安装，随更新自动同步
 | | |
 |---|---|
 | **解决什么** | 长对话越聊越慢、原地压缩又丢细节——把对话压缩成一份面向"下一棒"的接力文档 + 可复制提示词，新对话粘贴即续 |
-| **怎么触发** | 对话变长时跑 `/relayhand`；可带参数指定下一棒任务（如 `/relayhand 重构登录模块`），接力文档会围绕该任务裁剪 |
+| **怎么触发** | 对话变长时跑 `/relayhand`；可带参数指定下一棒任务（如 `/relayhand 重构登录模块`），接力文档会围绕该任务裁剪；带"今晚跑/夜跑"触发词则走夜跑变体（持久接力棒 + 敏感操作白名单 + 结果哨兵契约 + 显式入队，普通交接绝不自动入队） |
 | **什么时候用** | 工作必须离开当前会话，或跨到另一个 AI 产品时 |
 
 ### md-project-manager —— Markdown 项目管理技能
@@ -56,7 +56,7 @@ flowchart TD
 
 ## 其他 AI 产品用户
 
-relayhand 提供跨产品的通用核心提示词与 Agent 自装流程：见 [yanlin-cheng/relayhand](https://github.com/yanlin-cheng/relayhand)（universal 通用提示词 + 各产品适配说明）。
+relayhand 提供跨产品的通用核心提示词（含夜跑接力的通用核心层）与 Agent 自装流程：正本见本仓库 [universal/relayhand.md](universal/relayhand.md)；各产品适配说明在 [yanlin-cheng/relayhand](https://github.com/yanlin-cheng/relayhand)（已降级为镜像仓库）。
 
 ## 许可与变更
 

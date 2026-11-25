@@ -1,6 +1,6 @@
 {
   "name": "yanlin-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Yanlin's AI workflow toolkit: session relay command (relayhand) and Markdown project management skill (md-project-manager). Chinese-first, bilingual docs.",
   "author": {
     "name": "yanlin-cheng"

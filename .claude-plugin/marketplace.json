@@ -10,7 +10,7 @@
       "source": "./",
       "description": "Session relay command (relayhand) + Markdown project management skill (md-project-manager). Chinese-first, bilingual docs.",
       "category": "productivity",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "keywords": [
         "relay",
         "handoff",

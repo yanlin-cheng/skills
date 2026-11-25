@@ -29,7 +29,7 @@ You get:
 | | |
 |---|---|
 | **What it solves** | Long conversations get slow, and in-place compaction loses detail — relayhand compresses the conversation into a handoff note + copyable prompt aimed at the *next* session. Paste it into a fresh chat and continue |
-| **How to trigger** | Run `/relayhand` when the conversation gets long; pass a task argument (e.g. `/relayhand refactor the login module`) and the note is tailored to that task |
+| **How to trigger** | Run `/relayhand` when the conversation gets long; pass a task argument (e.g. `/relayhand refactor the login module`) and the note is tailored to that task; add "今晚跑"/"夜跑" for the night-run variant (persistent baton + sensitive-op whitelist + result-sentinel contract + explicit opt-in enqueue — a normal handoff never auto-enqueues) |
 | **When to use** | Whenever work must leave the current session — or cross to another AI product |
 
 ### md-project-manager — Markdown Project Management Skill
@@ -58,7 +58,7 @@ One repo, one plugin, multiple skills: new workflow tools join this plugin direc
 
 ## Other AI Products
 
-relayhand ships a cross-product universal prompt with an agent-driven install flow: see [yanlin-cheng/relayhand](https://github.com/yanlin-cheng/relayhand) (universal core prompt + per-product adapters).
+relayhand ships a cross-product universal prompt (including the night-run core layer) with an agent-driven install flow: the source of truth is [universal/relayhand.md](universal/relayhand.md) in this repo; per-product adapters live in [yanlin-cheng/relayhand](https://github.com/yanlin-cheng/relayhand) (now a mirror repo).
 
 ## License & Changelog
 
